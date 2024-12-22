@@ -4,6 +4,6 @@ services:
     build:
       context: .
     volumes:
-      - ./public-html/:/usr/local/apache2/htdocs/
+      - ./docs/:/usr/local/apache2/htdocs/
     ports:
       - "1002:80"
